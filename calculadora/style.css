@@ -49,7 +49,7 @@ header{
     color: #fff;
 }
 .logo{
-    font-size: 20px;
+    font-size: 24px;
     text-align: center;
     padding:10px 0 5px 0 ;
     width: 100%;
@@ -67,9 +67,26 @@ header{
     background-color: rgb(252, 231, 217);
     border: none;
 }
-.botoes{
+.box-botoes{
+    display: grid;
     width: 85%;
-    height: 90%;
+    height: 70%;
+    grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr;
+    grid-template-rows: 2fr 2fr 2fr 2fr 2fr;
+    grid-gap: 2px;
+}
+.botoes{
+    font-size: 23px;
+    font-weight: bold;
+    border: none;
+    background-color: #9e9d9d;
+}
+#zero{
+    grid-column-start: span 2;
+}
+#igual{
+    grid-row-start: span 2;
+
 }
 footer{
     min-height: 100px;
