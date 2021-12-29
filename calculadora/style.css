@@ -58,12 +58,12 @@ header{
 #visor{
     background-color: #f0eaea;
     border: none;
-
+    border-radius: 8px;
     width: 85%;
     height: 9%;
 }
 .botoes{
-    width: 100%;
+    width: 85%;
     height: 90%;
 }
 footer{
