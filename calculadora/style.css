@@ -61,6 +61,11 @@ header{
     border-radius: 8px;
     width: 85%;
     height: 9%;
+    outline: 0;
+}
+#visor:focus{
+    background-color: rgb(252, 231, 217);
+    border: none;
 }
 .botoes{
     width: 85%;
