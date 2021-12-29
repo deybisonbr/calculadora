@@ -32,17 +32,20 @@ header{
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+
 }
 
 .calculadora{
     width: 300px;
     height: 500px;
     background-color: #fff;
+    border-radius: 20px;
+    color: #000;
 }
 footer{
-    min-width: 10%;
+    min-height: 130px;
     border-top: var(--color-orange) dotted 1px;
-    bottom: 0;
     text-align: center;
 }
 footer h2{
@@ -51,7 +54,7 @@ footer h2{
     font-weight: bold;
 }
 footer p{
-    padding-top: 20px;
+    padding: 20px 0 10px 0;
 }
 
 footer a{
