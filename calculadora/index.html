@@ -7,7 +7,6 @@
     <title>Calculadora</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
-    <script src="/script.js"></script>
 </head>
 <body>
     <header>
@@ -17,28 +16,36 @@
         </div>
     </header>
     <main class="container-calculadora">
-            <div class="calculadora">
+            <div name="calculator" class="calculadora">
                 <h2 class="logo">Fenix Calculator</h2>
-                <input id="visor" type="text">
+                <div id="display">
+                    <p id="displaynumber"></p>
+                </div>
+                
+                <!-- <div id="display">
+                    <p id="num1" name="display">display</p>
+                    <p id="opc">+</p>
+                    <p id="num2">10</p>
+                </div> -->
                 <div class="box-botoes">
                     <input type="button" class="botoes" value="C">
                     <input type="button" class="botoes" value="<">
-                    <input type="button" class="botoes" value="/">
-                    <input type="button" class="botoes" value="X">
-                    <input type="button" class="botoes" value="7">
-                    <input type="button" class="botoes" value="8">
-                    <input type="button" class="botoes" value="9">
-                    <input type="button" class="botoes" value="-">
-                    <input type="button" class="botoes" value="4">
-                    <input type="button" class="botoes" value="5">
-                    <input type="button" class="botoes" value="6">
-                    <input type="button" class="botoes" value="+">
-                    <input type="button" class="botoes" value="1">
-                    <input type="button" class="botoes" value="2">
-                    <input type="button" class="botoes" value="3">
+                    <input type="button" class="botoes" value="/"onclick="displayNum('/')">
+                    <input type="button" class="botoes" value="X"onclick="displayNum('X')">
+                    <input type="button" class="botoes" value="7"onclick="displayNum('7')">
+                    <input type="button" class="botoes" value="8"onclick="displayNum('8')">
+                    <input type="button" class="botoes" value="9"onclick="displayNum('9')">
+                    <input type="button" class="botoes" value="-"onclick="displayNum('-')">
+                    <input type="button" class="botoes" value="4"onclick="displayNum('4')">
+                    <input type="button" class="botoes" value="5"onclick="displayNum('5')">
+                    <input type="button" class="botoes" value="6"onclick="displayNum('6')">
+                    <input type="button" class="botoes" value="+"onclick="displayNum('+')">
+                    <input type="button" class="botoes" value="1" onclick="displayNum('1')">
+                    <input type="button" class="botoes" value="2" onclick="displayNum('2')">
+                    <input type="button" class="botoes" value="3" onclick="displayNum('3')">
                     <input type="button" id="igual" class="botoes" value="=">
-                    <input type="button" id="zero" class="botoes" value="0">
-                    <input type="button" class="botoes" value=".">
+                    <input type="button" id="zero" class="botoes" value="0" onclick="displayNum('0')">
+                    <input type="button" class="botoes" value="." onclick="displayNum('.')">
                 </div>
                 </div>
 
@@ -47,5 +54,6 @@
         <h2>Calculadora</h2>
         <p>Desenvolvido por: <strong>deybisonbr</strong>- Acesse meu perfil no <strong><a href="https://github.com/deybisonbr" target="_blank">github</a></strong></p>
     </footer>
+    <script type="text/javascript" src="./script.js"></script>
 </body>
 </html>
