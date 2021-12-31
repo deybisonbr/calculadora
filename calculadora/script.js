@@ -14,7 +14,7 @@ function del(){
     window.document.querySelector("p#displayNumber").innerHTML = displayback.substring(0, displayback.length -1)
 }
 function operacao(){
-    const resultado = window.document.querySelector("p#displayNumber").innerHTML;
+    const resultado = window.document.querySelector("p#displayNumber").innerHTML.replace('x', '*');
     if(resultado){
         window.document.querySelector("p#displayNumber").innerHTML = eval(resultado)
     }
