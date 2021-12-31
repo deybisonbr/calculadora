@@ -19,17 +19,11 @@
             <div name="calculator" class="calculadora">
                 <h2 class="logo">Fenix Calculator</h2>
                 <div id="display">
-                    <p id="displaynumber"></p>
+                    <p id="displayNumber"></p>
                 </div>
-                
-                <!-- <div id="display">
-                    <p id="num1" name="display">display</p>
-                    <p id="opc">+</p>
-                    <p id="num2">10</p>
-                </div> -->
                 <div class="box-botoes">
-                    <input type="button" class="botoes" value="C">
-                    <input type="button" class="botoes" value="<">
+                    <input type="button" class="botoes" value="C" onclick="clean()">
+                    <input type="button" class="botoes" value="<" onclick = "del()">
                     <input type="button" class="botoes" value="/"onclick="displayNum('/')">
                     <input type="button" class="botoes" value="X"onclick="displayNum('X')">
                     <input type="button" class="botoes" value="7"onclick="displayNum('7')">
@@ -43,7 +37,7 @@
                     <input type="button" class="botoes" value="1" onclick="displayNum('1')">
                     <input type="button" class="botoes" value="2" onclick="displayNum('2')">
                     <input type="button" class="botoes" value="3" onclick="displayNum('3')">
-                    <input type="button" id="igual" class="botoes" value="=">
+                    <input type="button" id="igual" class="botoes" onclick="operacao()" value="=">
                     <input type="button" id="zero" class="botoes" value="0" onclick="displayNum('0')">
                     <input type="button" class="botoes" value="." onclick="displayNum('.')">
                 </div>

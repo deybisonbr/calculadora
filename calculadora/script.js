@@ -1,4 +1,22 @@
-function displayNum(num) {
-    const display = window.document.querySelector("p#displaynumber").innerHTML;
-    window.document.querySelector("p#displaynumber").innerHTML = display + num
+
+function displayNum(num){
+    const display = window.document.querySelector("p#displayNumber").innerHTML; 
+    window.document.querySelector("p#displayNumber").innerHTML = display + num;
+
+
+}
+
+function clean(){
+     window.document.querySelector("p#displayNumber").innerHTML = "";
+}
+function del(){
+    const displayback = window.document.querySelector("p#displayNumber").innerHTML; 
+    window.document.querySelector("p#displayNumber").innerHTML = displayback.substring(0, displayback.length -1)
+}
+function operacao(){
+    const resultado = window.document.querySelector("p#displayNumber").innerHTML;
+    if(resultado){
+        window.document.querySelector("p#displayNumber").innerHTML = eval(resultado)
+    }
+
 }

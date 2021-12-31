@@ -65,25 +65,18 @@ header{
     height: 3%;
 }
 #display{
-    /* display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr; */
     white-space: normal;
     background-color: #f0eaea;
     color: #000;
     border: none;
+    padding-top: 16px;
     font-size: 26px;
     font-weight: bold;
     text-align: right;
     width: 85%;
-    height: 12%;
+    height: 8%;
     outline: 0;
     box-shadow: inset 1px 1px 3px rgb(0, 0, 0);
-}
-
-#visor:focus{
-    background-color: rgb(252, 231, 217);
-    border: none;
 }
 .box-botoes{
     display: grid;
@@ -109,6 +102,9 @@ header{
 }
 .botoes:hover{
     background-color: rgb(255, 100, 16);
+}
+#zero:hover, #igual:hover{
+    background-color: rgb(255, 145, 0);
 }
 #zero{
     grid-column-start: span 2;
