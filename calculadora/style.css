@@ -73,6 +73,7 @@ header{
     font-size: 26px;
     font-weight: bold;
     text-align: right;
+    overflow: hidden;
     width: 85%;
     height: 8%;
     outline: 0;
