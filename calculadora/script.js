@@ -17,6 +17,8 @@ function operacao(){
     const resultado = window.document.querySelector("p#displayNumber").innerHTML.replace('x', '*');
     if(resultado){
         window.document.querySelector("p#displayNumber").innerHTML = eval(resultado)
+    }else{
+        window.document.querySelector("p#displayNumber").innerHTML = 'Digite o numero!'
     }
 
 }
