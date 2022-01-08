@@ -1,7 +1,7 @@
 
 function displayNum(num){
-    const display = window.document.querySelector("p#displayNumber").innerHTML; 
-    window.document.querySelector("p#displayNumber").innerHTML = display + num;
+    const display = window.document.querySelector("p#displayNumber")
+    display.innerHTML += num;
 
 
 }
