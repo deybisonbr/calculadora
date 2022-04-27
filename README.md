@@ -11,4 +11,5 @@ Função de Soma:
  ![Prévia da função de soma!](./calculadora/preview/soma.jpg)
 
 Resultado da Soma:
+
  ![Prévia da resultado da soma!](./calculadora/preview/result.jpg)
