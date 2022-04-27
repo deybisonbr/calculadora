@@ -3,4 +3,4 @@
  [Acesse o APP](https://deybisonbr.github.io/calculadora/calculadora)
  
  Prévia da Calculadora:
- ![Prévia da Calculadora](./design/preview.jpg)
+ ![Prévia da Calculadora](./preview/preview.jpg)
