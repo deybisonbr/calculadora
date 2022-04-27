@@ -13,3 +13,5 @@ Função de Soma:
 Resultado da Soma:
 
  ![Prévia da resultado da soma!](./calculadora/preview/result.jpg)
+ 
+ A calculadora possui varias outras funções como multiplicar, dividir, subtrair, apagar o display, apagar numero por numero.
